@@ -6,10 +6,7 @@ import seaborn as sns
 import nbformat
 import sqlite3
 import matplotlib.pyplot as plt
-from sklearn.model_selection import train_test_split
-from sklearn.linear_model import LinearRegression
-from sklearn.metrics import mean_squared_error
-from sklearn.ensemble import GradientBoostingRegressor
+
 
 # the following two funnctions are prepared by using ChatGPT to be able to display the content of notebook file inside the website.
 def load_notebook(file_path):
