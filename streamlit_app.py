@@ -469,10 +469,10 @@ elif navigation=="Forecasting":
         st.subheader(f"Weather Forecast for {user_date.strftime('%B')} {user_date.year}")
         
         st.write(f"**Temperature**: {temperature}°C")
-        st.write(get_desc_for_temp(temperature))
+        st.write("-",get_desc_for_temp(temperature))
         st.write(f"**Precipitation**: {precipitation} mm")
         st.write(f"**Precipitation Probability**: {precipitation_probability * 100}%")
-        st.write(get_desc_for_prcp(precipitation))
+        st.write("-",get_desc_for_prcp(precipitation_probability))
         st.write(f"**Snow Depth**: {snow_depth} cm")
     
     
